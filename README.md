@@ -1,6 +1,15 @@
 # fedora-my4ng
 RPM package repository for Fedora
 
+### Package list:
+
+  - [openrazer w/ akmod](https://github.com/openrazer/openrazer)
+    - akmod-openrazer
+    - openrazer
+    - openrazer-daemon
+    - python3-openrazer
+  - [xwayland-satellite w/ systemd service](https://github.com/Supreeeme/xwayland-satellite)
+    - xwayland-satellite
 ### Install [repo file](https://my4ng.dev/repos/fedora-my4ng.repo):
 
   - DNF5: `sudo dnf config-manager addrepo --from-repofile=https://my4ng.dev/repos/fedora-my4ng.repo`
